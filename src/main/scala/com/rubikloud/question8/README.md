@@ -12,10 +12,16 @@ Identify the steps you would do, to improve the overall performance on the Sales
 - Is cluster shared?  Is another application competing for resources?
 - Are master and nodes all in same local area network/vnet?
 
-### Executor Size
+## Executor Size
 
 Executors have ~400MB of overhead so with 1GB executors an inefficiently large proportion of overall memory is not available for caching etc.  Check if executors are writing to disk.
 - try doubling executor size until executors no longer write to disk
-- balance CPU and RAM usage 
+- balance CPU and RAM usage
+
+## Caching
+
+Are all the tables read from a raw data source?  What has changed in source data since last run?
+- Can we persist the results of expensive joins between runs?
+- Can we reduce size of tables being joined by only joining new data?
 
 
