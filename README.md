@@ -18,6 +18,7 @@ Written answers and discussion saved in READMEs (src/main/scala/com/rubikloud)
 - [Question 7](src/main/scala/com/rubikloud/question7)
 - [Question 8](src/main/scala/com/rubikloud/question8)
 
-Dev sample data in [DATA](data/__default__/user/current/DATA) data/\_\_default__/user/current/.
+Dev sample data not included.
 Download sample data from [shared Google Drive folder](https://drive.google.com/drive/folders/12lOHgaCii1Ev1rb2q5UnsEL78kK0f2ww?usp=sharing)
 Decompress `data.tar.xz` into root of cloned repo.
+Expected path: `data/\_\_default__/user/current/DATA`
